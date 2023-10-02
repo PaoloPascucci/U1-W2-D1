@@ -79,5 +79,5 @@ console.log(x - 4);
 let name1 = "jhon";
 let name2 = "Jhon";
 
-console.log(name1 === name2);
-console.log(name1 === name2.toLowerCase());
+console.log(name1 !== name2);
+console.log(name1.toLowerCase() === name2.toLowerCase());
